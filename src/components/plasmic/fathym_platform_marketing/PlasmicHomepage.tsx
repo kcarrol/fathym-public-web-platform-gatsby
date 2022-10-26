@@ -1133,7 +1133,9 @@ function PlasmicHomepage__RenderFunc(props: {
                 className={classNames("__wab_instance", sty.heroSection)}
               />
             ) : null}
-            {true ? (
+            {(
+              hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
+            ) ? (
               <FathymPlatformComponent
                 data-plasmic-name={"fathymPlatformComponent"}
                 data-plasmic-override={overrides.fathymPlatformComponent}

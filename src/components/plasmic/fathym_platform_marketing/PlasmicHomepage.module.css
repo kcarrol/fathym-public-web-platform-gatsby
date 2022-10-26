@@ -1237,7 +1237,8 @@
   .fathymPlatformComponent:global(.__wab_instance):global(.__wab_instance):global(.__wab_instance) {
     margin-left: 0px;
     margin-right: 0px;
-    width: 470px;
+    max-width: 100%;
+    display: block;
   }
 }
 .footerBlack:global(.__wab_instance) {
