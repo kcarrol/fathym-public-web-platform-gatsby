@@ -42,7 +42,7 @@ import BlogPosts from "../../BlogPosts"; // plasmic-import: cfc4BWOxn-7cO/compon
 import CtaBlock from "../../CtaBlock"; // plasmic-import: y1BKf6ZH3B-PH/component
 import HeroSection from "../../HeroSection"; // plasmic-import: vYpH_54Wpi34Q8/component
 import FathymPlatformComponent from "../../FathymPlatformComponent"; // plasmic-import: PwalIDIYTo/component
-import FooterBlack from "../../FooterBlack"; // plasmic-import: OF8nqCrALhqFVT/component
+import NewFathymFooter from "../../NewFathymFooter"; // plasmic-import: U3TgOcVpMC2/component
 
 import { useScreenVariants as useScreenVariantsj2POtptfJbgbHl } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: J2pOTPTFJbgbHl/globalVariant
 
@@ -50,6 +50,7 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 
 import * as plasmic_new_habistack_com_css from "../new_habistack_com/plasmic_new_habistack_com.module.css"; // plasmic-import: rcEGNgTfxT6W6gDjnxsJgN/projectcss
 import * as plasmic_library_plasmic_color_type_css from "../library_plasmic_color_type/plasmic_library_plasmic_color_type.module.css"; // plasmic-import: seaQhLVS4bbjiGvJJrRwyL/projectcss
+import * as plasmic_habistack_marketing_css from "../habistack_marketing/plasmic_habistack_marketing.module.css"; // plasmic-import: cEHjHBABazmDxgQhPGAjL/projectcss
 import * as projectcss from "./plasmic_fathym_platform_marketing.module.css"; // plasmic-import: 6fZSWkofPMXR1NLi1bFj7o/projectcss
 import * as sty from "./PlasmicHomepage.module.css"; // plasmic-import: O7oLU1q9msvV2/css
 
@@ -73,6 +74,7 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
 export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
   header?: p.Flex<typeof Header>;
+  h1?: p.Flex<"h1">;
   solutions?: p.Flex<typeof Solutions>;
   technology?: p.Flex<typeof Technology>;
   features?: p.Flex<"section">;
@@ -88,7 +90,7 @@ export type PlasmicHomepage__OverridesType = {
   ctaBlock?: p.Flex<typeof CtaBlock>;
   heroSection?: p.Flex<typeof HeroSection>;
   fathymPlatformComponent?: p.Flex<typeof FathymPlatformComponent>;
-  footerBlack?: p.Flex<typeof FooterBlack>;
+  newFathymFooter?: p.Flex<typeof NewFathymFooter>;
 };
 
 export interface DefaultHomepageProps {
@@ -156,6 +158,8 @@ function PlasmicHomepage__RenderFunc(props: {
     ...variants
   };
 
+  const currentUser = p.useCurrentUser?.() || {};
+
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantsj2POtptfJbgbHl()
   });
@@ -185,6 +189,7 @@ function PlasmicHomepage__RenderFunc(props: {
               projectcss.plasmic_tokens,
               plasmic_new_habistack_com_css.plasmic_tokens,
               plasmic_library_plasmic_color_type_css.plasmic_tokens,
+              plasmic_habistack_marketing_css.plasmic_tokens,
               sty.root
             )}
           >
@@ -220,12 +225,14 @@ function PlasmicHomepage__RenderFunc(props: {
                         {"Fathym Platform"}
                       </div>
 
-                      <h2
+                      <h1
+                        data-plasmic-name={"h1"}
+                        data-plasmic-override={overrides.h1}
                         className={classNames(
                           projectcss.all,
-                          projectcss.h2,
+                          projectcss.h1,
                           projectcss.__wab_text,
-                          sty.h2__p04Lr
+                          sty.h1
                         )}
                       >
                         {hasVariant(globalVariants, "screen", "mobileOnly") ? (
@@ -255,7 +262,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             <React.Fragment>{"."}</React.Fragment>
                           </React.Fragment>
                         )}
-                      </h2>
+                      </h1>
 
                       <div
                         className={classNames(
@@ -1145,13 +1152,12 @@ function PlasmicHomepage__RenderFunc(props: {
                 )}
               />
             ) : null}
-            {true ? (
-              <FooterBlack
-                data-plasmic-name={"footerBlack"}
-                data-plasmic-override={overrides.footerBlack}
-                className={classNames("__wab_instance", sty.footerBlack)}
-              />
-            ) : null}
+
+            <NewFathymFooter
+              data-plasmic-name={"newFathymFooter"}
+              data-plasmic-override={overrides.newFathymFooter}
+              className={classNames("__wab_instance", sty.newFathymFooter)}
+            />
           </p.Stack>
         ) : null}
       </div>
@@ -1163,6 +1169,7 @@ const PlasmicDescendants = {
   root: [
     "root",
     "header",
+    "h1",
     "solutions",
     "technology",
     "features",
@@ -1178,9 +1185,10 @@ const PlasmicDescendants = {
     "ctaBlock",
     "heroSection",
     "fathymPlatformComponent",
-    "footerBlack"
+    "newFathymFooter"
   ],
   header: ["header"],
+  h1: ["h1"],
   solutions: ["solutions"],
   technology: ["technology"],
   features: [
@@ -1204,7 +1212,7 @@ const PlasmicDescendants = {
   ctaBlock: ["ctaBlock"],
   heroSection: ["heroSection"],
   fathymPlatformComponent: ["fathymPlatformComponent"],
-  footerBlack: ["footerBlack"]
+  newFathymFooter: ["newFathymFooter"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -1212,6 +1220,7 @@ type DescendantsType<T extends NodeNameType> =
 type NodeDefaultElementType = {
   root: "div";
   header: typeof Header;
+  h1: "h1";
   solutions: typeof Solutions;
   technology: typeof Technology;
   features: "section";
@@ -1227,7 +1236,7 @@ type NodeDefaultElementType = {
   ctaBlock: typeof CtaBlock;
   heroSection: typeof HeroSection;
   fathymPlatformComponent: typeof FathymPlatformComponent;
-  footerBlack: typeof FooterBlack;
+  newFathymFooter: typeof NewFathymFooter;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -1292,6 +1301,7 @@ export const PlasmicHomepage = Object.assign(
   {
     // Helper components rendering sub-elements
     header: makeNodeComponent("header"),
+    h1: makeNodeComponent("h1"),
     solutions: makeNodeComponent("solutions"),
     technology: makeNodeComponent("technology"),
     features: makeNodeComponent("features"),
@@ -1307,7 +1317,7 @@ export const PlasmicHomepage = Object.assign(
     ctaBlock: makeNodeComponent("ctaBlock"),
     heroSection: makeNodeComponent("heroSection"),
     fathymPlatformComponent: makeNodeComponent("fathymPlatformComponent"),
-    footerBlack: makeNodeComponent("footerBlack"),
+    newFathymFooter: makeNodeComponent("newFathymFooter"),
 
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,

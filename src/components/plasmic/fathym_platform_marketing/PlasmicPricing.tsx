@@ -41,6 +41,7 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 
 import * as plasmic_new_habistack_com_css from "../new_habistack_com/plasmic_new_habistack_com.module.css"; // plasmic-import: rcEGNgTfxT6W6gDjnxsJgN/projectcss
 import * as plasmic_library_plasmic_color_type_css from "../library_plasmic_color_type/plasmic_library_plasmic_color_type.module.css"; // plasmic-import: seaQhLVS4bbjiGvJJrRwyL/projectcss
+import * as plasmic_habistack_marketing_css from "../habistack_marketing/plasmic_habistack_marketing.module.css"; // plasmic-import: cEHjHBABazmDxgQhPGAjL/projectcss
 import * as projectcss from "./plasmic_fathym_platform_marketing.module.css"; // plasmic-import: 6fZSWkofPMXR1NLi1bFj7o/projectcss
 import * as sty from "./PlasmicPricing.module.css"; // plasmic-import: kdo3rNzvrvZiI0/css
 
@@ -97,6 +98,8 @@ function PlasmicPricing__RenderFunc(props: {
     ...variants
   };
 
+  const currentUser = p.useCurrentUser?.() || {};
+
   return (
     <React.Fragment>
       <style>{`
@@ -121,6 +124,7 @@ function PlasmicPricing__RenderFunc(props: {
             projectcss.plasmic_tokens,
             plasmic_new_habistack_com_css.plasmic_tokens,
             plasmic_library_plasmic_color_type_css.plasmic_tokens,
+            plasmic_habistack_marketing_css.plasmic_tokens,
             sty.root
           )}
         >
