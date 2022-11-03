@@ -41,7 +41,6 @@ import Testimonial from "../../Testimonial"; // plasmic-import: 6_8qVPX-29PB5/co
 import BlogPosts from "../../BlogPosts"; // plasmic-import: cfc4BWOxn-7cO/component
 import CtaBlock from "../../CtaBlock"; // plasmic-import: y1BKf6ZH3B-PH/component
 import HeroSection from "../../HeroSection"; // plasmic-import: vYpH_54Wpi34Q8/component
-import FathymPlatformComponent from "../../FathymPlatformComponent"; // plasmic-import: PwalIDIYTo/component
 import NewFathymFooter from "../../NewFathymFooter"; // plasmic-import: U3TgOcVpMC2/component
 
 import { useScreenVariants as useScreenVariantsj2POtptfJbgbHl } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: J2pOTPTFJbgbHl/globalVariant
@@ -89,7 +88,6 @@ export type PlasmicHomepage__OverridesType = {
   blog?: p.Flex<typeof BlogPosts>;
   ctaBlock?: p.Flex<typeof CtaBlock>;
   heroSection?: p.Flex<typeof HeroSection>;
-  fathymPlatformComponent?: p.Flex<typeof FathymPlatformComponent>;
   newFathymFooter?: p.Flex<typeof NewFathymFooter>;
 };
 
@@ -536,7 +534,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                   "screen",
                                   "mobileOnly"
                                 )
-                                  ? "Cold, Warm, Hot."
+                                  ? "You're in control."
                                   : "You’re in control. "}
                               </h3>
 
@@ -1158,18 +1156,6 @@ function PlasmicHomepage__RenderFunc(props: {
                 className={classNames("__wab_instance", sty.heroSection)}
               />
             ) : null}
-            {(
-              hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
-            ) ? (
-              <FathymPlatformComponent
-                data-plasmic-name={"fathymPlatformComponent"}
-                data-plasmic-override={overrides.fathymPlatformComponent}
-                className={classNames(
-                  "__wab_instance",
-                  sty.fathymPlatformComponent
-                )}
-              />
-            ) : null}
 
             <NewFathymFooter
               data-plasmic-name={"newFathymFooter"}
@@ -1202,7 +1188,6 @@ const PlasmicDescendants = {
     "blog",
     "ctaBlock",
     "heroSection",
-    "fathymPlatformComponent",
     "newFathymFooter"
   ],
   header: ["header"],
@@ -1229,7 +1214,6 @@ const PlasmicDescendants = {
   blog: ["blog"],
   ctaBlock: ["ctaBlock"],
   heroSection: ["heroSection"],
-  fathymPlatformComponent: ["fathymPlatformComponent"],
   newFathymFooter: ["newFathymFooter"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -1253,7 +1237,6 @@ type NodeDefaultElementType = {
   blog: typeof BlogPosts;
   ctaBlock: typeof CtaBlock;
   heroSection: typeof HeroSection;
-  fathymPlatformComponent: typeof FathymPlatformComponent;
   newFathymFooter: typeof NewFathymFooter;
 };
 
@@ -1334,7 +1317,6 @@ export const PlasmicHomepage = Object.assign(
     blog: makeNodeComponent("blog"),
     ctaBlock: makeNodeComponent("ctaBlock"),
     heroSection: makeNodeComponent("heroSection"),
-    fathymPlatformComponent: makeNodeComponent("fathymPlatformComponent"),
     newFathymFooter: makeNodeComponent("newFathymFooter"),
 
     // Metadata about props expected for PlasmicHomepage
