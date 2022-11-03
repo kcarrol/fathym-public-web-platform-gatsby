@@ -2307,6 +2307,11 @@
           "id": "XuQ-7xFTO",
           "name": "MicrosoftTeams-image (24).png",
           "filePath": "plasmic/fathym_platform_marketing/images/microsoftTeamsImage24Png.png"
+        },
+        {
+          "id": "Jake3MNMo",
+          "name": "platform-routes.png",
+          "filePath": "plasmic/fathym_platform_marketing/images/platformRoutespng.png"
         }
       ],
       "indirect": false,
@@ -3165,7 +3170,8 @@
           "name": "Fetcher",
           "componentImportPath": "@plasmicapp/data-sources"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     }
   ],
   "globalVariants": {

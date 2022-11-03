@@ -17,7 +17,7 @@
   "dependencies": {
     "@plasmicapp/cli": "^0.1.187",
     "@plasmicapp/host": "^1.0.81",
-    "@plasmicapp/react-web": "^0.2.114",
+    "@plasmicapp/react-web": "^0.2.117",
     "@plasmicpkgs/plasmic-basic-components": "^0.0.88",
     "@plasmicpkgs/react-awesome-reveal": "^3.8.81",
     "@plasmicpkgs/react-scroll-parallax": "^0.0.86",

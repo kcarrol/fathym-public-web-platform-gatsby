@@ -58,7 +58,7 @@ import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: UoP
 import ArrowRightsvgIcon from "./icons/PlasmicIcon__ArrowRightsvg"; // plasmic-import: dgkW2n0oQvm_D7/icon
 import microsoftTeamsImage24PngXuQ7XFto from "./images/microsoftTeamsImage24Png.png"; // plasmic-import: XuQ-7xFTO/picture
 import editProjectViewPngJvCv9AbZ3 from "./images/editProjectViewPng.png"; // plasmic-import: JvCv9AbZ3/picture
-import _5RoutesModularFrontendpngBol0Gm1Ot from "./images/_5RoutesModularFrontendpng.png"; // plasmic-import: Bol0GM1OT/picture
+import platformRoutespngJake3MnMo from "./images/platformRoutespng.png"; // plasmic-import: Jake3MNMo/picture
 import mepngIce0Sp2GWj10F5 from "./images/mepng.png"; // plasmic-import: ICE0sp2GWj10F5/picture
 import thumbAvatar1583758683JpgXtkuMuBfp7CxUo from "./images/thumbAvatar1583758683Jpg.jpeg"; // plasmic-import: xtkuMuBFP7CxUo/picture
 
@@ -771,9 +771,9 @@ function PlasmicHomepage__RenderFunc(props: {
                             }
                             loading={"lazy" as const}
                             src={{
-                              src: _5RoutesModularFrontendpngBol0Gm1Ot,
-                              fullWidth: 664,
-                              fullHeight: 664,
+                              src: platformRoutespngJake3MnMo,
+                              fullWidth: 601,
+                              fullHeight: 608,
                               aspectRatio: undefined
                             }}
                           />
