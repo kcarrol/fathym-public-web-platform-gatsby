@@ -33,7 +33,7 @@
 }
 @media (min-width: 0px) and (max-width: 767px) {
   .header:global(.__wab_instance) {
-    height: 141px;
+    height: 208px;
     max-height: none;
     flex-shrink: 0;
   }
@@ -77,10 +77,11 @@
 }
 @media (min-width: 0px) and (max-width: 767px) {
   .freeBox__zbv0W {
-    padding-top: 87px;
+    padding-top: 50px;
     flex-wrap: nowrap;
     align-items: stretch;
     align-content: stretch;
+    padding-bottom: 49px;
   }
 }
 .freeBox__hp0Fb {
@@ -173,6 +174,11 @@
   font-weight: 700;
   box-shadow: none;
   min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .text__hXIr {
+    margin-top: calc(0px + 32px) !important;
+  }
 }
 .h1 {
   color: var(--token-Me6-r4laOruRgz);

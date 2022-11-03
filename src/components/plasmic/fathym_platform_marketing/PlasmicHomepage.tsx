@@ -243,7 +243,25 @@ function PlasmicHomepage__RenderFunc(props: {
                               }
                               style={{ color: "#000000" }}
                             >
-                              {"Cloud-native IoT, out-of-the-box."}
+                              {"Cloud-native app deployment, "}
+                            </span>
+                            <React.Fragment>{"\n"}</React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ color: "#0091FF" }}
+                            >
+                              {"out-of-the-box"}
+                            </span>
+                            <React.Fragment>{""}</React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ color: "#000000" }}
+                            >
+                              {"."}
                             </span>
                           </React.Fragment>
                         ) : (
@@ -301,21 +319,21 @@ function PlasmicHomepage__RenderFunc(props: {
                                   ) ? (
                                     <React.Fragment>
                                       <React.Fragment>
-                                        {"\nIoT Ensemble automates a "}
+                                        {
+                                          "\nFathym is a composable application platform for delivering "
+                                        }
                                       </React.Fragment>
                                       <span
                                         className={
                                           "plasmic_default__all plasmic_default__span"
                                         }
-                                        style={{ color: "#5856D6" }}
+                                        style={{ color: "#0091FF" }}
                                       >
-                                        {"best practice Azure IoT cloud "}
-                                      </span>
-                                      <React.Fragment>
                                         {
-                                          "for ingesting, processing, storing and visualizing device data.\n\n\n"
+                                          "future-proof, enterprise-ready applications with Azure"
                                         }
-                                      </React.Fragment>
+                                      </span>
+                                      <React.Fragment>{".\n"}</React.Fragment>
                                     </React.Fragment>
                                   ) : (
                                     <React.Fragment>
@@ -1325,7 +1343,7 @@ export const PlasmicHomepage = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "Fathym - IoT Ensemble - Cloud-native IoT, out-of-the-box",
+      title: "Fathym - Cloud-native app deployment, out-of-the-box",
       description:
         "Fathym is a composable application platform for delivering  future-proof, enterprise-ready applications with Azure.",
       ogImageSrc:
