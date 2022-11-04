@@ -118,7 +118,7 @@ function PlasmicSolutions__RenderFunc(props: {
             sty.h2
           )}
         >
-          {"Trusted and Verified Solutions"}
+          {"This text was changed for the platform page"}
         </h2>
 
         <div
