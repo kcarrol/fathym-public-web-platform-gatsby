@@ -2321,7 +2321,7 @@ export const PlasmicHomepage = Object.assign(
       description:
         "Fathym is a composable application platform for delivering  future-proof, enterprise-ready applications with Azure.",
       ogImageSrc:
-        "https://site-assets.plasmic.app/fcda0e1e09c92965ee81fb1e1ec2ef30.png",
+        "https://site-assets.plasmic.app/d63b5157444d0efbaceea4bd7defb7d9.png",
       canonical: ""
     }
   }
