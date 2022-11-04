@@ -307,9 +307,9 @@
 .solutions:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
-  display: flex;
+  display: none;
 }
-.platformTechnology:global(.__wab_instance):global(.__wab_instance) {
+.platformTechnology__dy8HF:global(.__wab_instance):global(.__wab_instance) {
   position: relative;
 }
 .features {

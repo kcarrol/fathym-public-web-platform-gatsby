@@ -637,7 +637,7 @@ function PlasmicTechnology__RenderFunc(props: {
                   )}
                 >
                   {
-                    "Authenticate users across your applications. Set up custom single sign-on (SSO). "
+                    "Authenticate users across your applications. Set up custom single sign-on (SSO)."
                   }
                 </div>
 

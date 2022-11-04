@@ -66,16 +66,17 @@ export type PlasmicHomepage__VariantsArgs = {};
 type VariantPropType = keyof PlasmicHomepage__VariantsArgs;
 export const PlasmicHomepage__VariantProps = new Array<VariantPropType>();
 
-export type PlasmicHomepage__ArgsType = {};
+export type PlasmicHomepage__ArgsType = {
+  children?: React.ReactNode;
+};
 type ArgPropType = keyof PlasmicHomepage__ArgsType;
-export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
+export const PlasmicHomepage__ArgProps = new Array<ArgPropType>("children");
 
 export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
   header?: p.Flex<typeof Header>;
   h1?: p.Flex<"h1">;
   solutions?: p.Flex<typeof Solutions>;
-  platformTechnology?: p.Flex<typeof PlatformTechnology>;
   features?: p.Flex<"section">;
   container4?: p.Flex<"div">;
   outerRow2?: p.Flex<"div">;
@@ -92,6 +93,7 @@ export type PlasmicHomepage__OverridesType = {
 };
 
 export interface DefaultHomepageProps {
+  children?: React.ReactNode;
   className?: string;
 }
 
@@ -427,13 +429,18 @@ function PlasmicHomepage__RenderFunc(props: {
                 className={classNames("__wab_instance", sty.solutions)}
               />
             ) : null}
+            {p.renderPlasmicSlot({
+              defaultContents: (
+                <PlatformTechnology
+                  className={classNames(
+                    "__wab_instance",
+                    sty.platformTechnology__dy8HF
+                  )}
+                />
+              ),
 
-            <PlatformTechnology
-              data-plasmic-name={"platformTechnology"}
-              data-plasmic-override={overrides.platformTechnology}
-              className={classNames("__wab_instance", sty.platformTechnology)}
-            />
-
+              value: args.children
+            })}
             {true ? (
               <section
                 data-plasmic-name={"features"}
@@ -1175,7 +1182,6 @@ const PlasmicDescendants = {
     "header",
     "h1",
     "solutions",
-    "platformTechnology",
     "features",
     "container4",
     "outerRow2",
@@ -1193,7 +1199,6 @@ const PlasmicDescendants = {
   header: ["header"],
   h1: ["h1"],
   solutions: ["solutions"],
-  platformTechnology: ["platformTechnology"],
   features: [
     "features",
     "container4",
@@ -1224,7 +1229,6 @@ type NodeDefaultElementType = {
   header: typeof Header;
   h1: "h1";
   solutions: typeof Solutions;
-  platformTechnology: typeof PlatformTechnology;
   features: "section";
   container4: "div";
   outerRow2: "div";
@@ -1304,7 +1308,6 @@ export const PlasmicHomepage = Object.assign(
     header: makeNodeComponent("header"),
     h1: makeNodeComponent("h1"),
     solutions: makeNodeComponent("solutions"),
-    platformTechnology: makeNodeComponent("platformTechnology"),
     features: makeNodeComponent("features"),
     container4: makeNodeComponent("container4"),
     outerRow2: makeNodeComponent("outerRow2"),
