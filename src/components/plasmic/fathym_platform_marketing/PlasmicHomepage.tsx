@@ -36,7 +36,7 @@ import {
 import Header from "../../Header"; // plasmic-import: IZ-2R-4QzkjxPd/component
 import Button from "../../Button"; // plasmic-import: 7une6Ae6nQQ_5/component
 import Solutions from "../../Solutions"; // plasmic-import: 3H8XUEEcqJGPi-/component
-import Technology from "../../Technology"; // plasmic-import: 1vc1_cwciPOg-4/component
+import PlatformTechnology from "../../PlatformTechnology"; // plasmic-import: CIREW4x60I/component
 import Testimonial from "../../Testimonial"; // plasmic-import: 6_8qVPX-29PB5/component
 import BlogPosts from "../../BlogPosts"; // plasmic-import: cfc4BWOxn-7cO/component
 import CtaBlock from "../../CtaBlock"; // plasmic-import: y1BKf6ZH3B-PH/component
@@ -75,7 +75,7 @@ export type PlasmicHomepage__OverridesType = {
   header?: p.Flex<typeof Header>;
   h1?: p.Flex<"h1">;
   solutions?: p.Flex<typeof Solutions>;
-  technology?: p.Flex<typeof Technology>;
+  platformTechnology?: p.Flex<typeof PlatformTechnology>;
   features?: p.Flex<"section">;
   container4?: p.Flex<"div">;
   outerRow2?: p.Flex<"div">;
@@ -428,10 +428,10 @@ function PlasmicHomepage__RenderFunc(props: {
               />
             ) : null}
 
-            <Technology
-              data-plasmic-name={"technology"}
-              data-plasmic-override={overrides.technology}
-              className={classNames("__wab_instance", sty.technology)}
+            <PlatformTechnology
+              data-plasmic-name={"platformTechnology"}
+              data-plasmic-override={overrides.platformTechnology}
+              className={classNames("__wab_instance", sty.platformTechnology)}
             />
 
             {true ? (
@@ -1175,7 +1175,7 @@ const PlasmicDescendants = {
     "header",
     "h1",
     "solutions",
-    "technology",
+    "platformTechnology",
     "features",
     "container4",
     "outerRow2",
@@ -1193,7 +1193,7 @@ const PlasmicDescendants = {
   header: ["header"],
   h1: ["h1"],
   solutions: ["solutions"],
-  technology: ["technology"],
+  platformTechnology: ["platformTechnology"],
   features: [
     "features",
     "container4",
@@ -1224,7 +1224,7 @@ type NodeDefaultElementType = {
   header: typeof Header;
   h1: "h1";
   solutions: typeof Solutions;
-  technology: typeof Technology;
+  platformTechnology: typeof PlatformTechnology;
   features: "section";
   container4: "div";
   outerRow2: "div";
@@ -1304,7 +1304,7 @@ export const PlasmicHomepage = Object.assign(
     header: makeNodeComponent("header"),
     h1: makeNodeComponent("h1"),
     solutions: makeNodeComponent("solutions"),
-    technology: makeNodeComponent("technology"),
+    platformTechnology: makeNodeComponent("platformTechnology"),
     features: makeNodeComponent("features"),
     container4: makeNodeComponent("container4"),
     outerRow2: makeNodeComponent("outerRow2"),

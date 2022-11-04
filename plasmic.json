@@ -1648,6 +1648,19 @@
           "cssFilePath": "plasmic/fathym_platform_marketing/PlasmicFathymPlatformComponent.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "CIREW4x60I",
+          "name": "PlatformTechnology",
+          "type": "managed",
+          "projectId": "6fZSWkofPMXR1NLi1bFj7o",
+          "renderModuleFilePath": "plasmic/fathym_platform_marketing/PlasmicPlatformTechnology.tsx",
+          "importSpec": {
+            "modulePath": "PlatformTechnology.tsx"
+          },
+          "cssFilePath": "plasmic/fathym_platform_marketing/PlasmicPlatformTechnology.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
