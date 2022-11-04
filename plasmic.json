@@ -3183,7 +3183,8 @@
           "name": "Fetcher",
           "componentImportPath": "@plasmicapp/data-sources"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     }
   ],
   "globalVariants": {

@@ -56,6 +56,15 @@ import * as sty from "./PlasmicHomepage.module.css"; // plasmic-import: O7oLU1q9
 import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: UoPjMarBjLAJl_/icon
 import ArrowRightsvgIcon from "./icons/PlasmicIcon__ArrowRightsvg"; // plasmic-import: dgkW2n0oQvm_D7/icon
 import microsoftTeamsImage24PngXuQ7XFto from "./images/microsoftTeamsImage24Png.png"; // plasmic-import: XuQ-7xFTO/picture
+import microsoftTeamsImage22PngYtYl0CU7 from "./images/microsoftTeamsImage22Png.png"; // plasmic-import: Yt_Yl0cU7/picture
+import microsoftTeamsImage21PngMu0X4VOUc from "./images/microsoftTeamsImage21Png.png"; // plasmic-import: MU0x4vOUc/picture
+import multiDatapngZw3PcLeDLaK0Ny from "./images/multiDatapng.png"; // plasmic-import: ZW3PCLeDLaK0Ny/picture
+import cloudNativepngTFElapKifpNsAp from "./images/cloudNativepng.png"; // plasmic-import: tFElapKifpNsAp/picture
+import microsoftTeamsImage17PngJm0FX6Qhm from "./images/microsoftTeamsImage17Png.png"; // plasmic-import: JM0fX6qhm/picture
+import microsoftTeamsImage23PngYJJaM68 from "./images/microsoftTeamsImage23Png.png"; // plasmic-import: yJJaM_68-/picture
+import microsoftTeamsImage18PngHswEwApnZ from "./images/microsoftTeamsImage18Png.png"; // plasmic-import: hswEWApnZ/picture
+import oursYourspngCaSf9VRyMoVwL2 from "./images/oursYourspng.png"; // plasmic-import: caSF9VRyMOVwL2/picture
+import microsoftTeamsImage19PngLgPuGiAwa from "./images/microsoftTeamsImage19Png.png"; // plasmic-import: LGPuGiAWA/picture
 import editProjectViewPngJvCv9AbZ3 from "./images/editProjectViewPng.png"; // plasmic-import: JvCv9AbZ3/picture
 import platformRoutespngJake3MnMo from "./images/platformRoutespng.png"; // plasmic-import: Jake3MNMo/picture
 import mepngIce0Sp2GWj10F5 from "./images/mepng.png"; // plasmic-import: ICE0sp2GWj10F5/picture
@@ -66,17 +75,16 @@ export type PlasmicHomepage__VariantsArgs = {};
 type VariantPropType = keyof PlasmicHomepage__VariantsArgs;
 export const PlasmicHomepage__VariantProps = new Array<VariantPropType>();
 
-export type PlasmicHomepage__ArgsType = {
-  children?: React.ReactNode;
-};
+export type PlasmicHomepage__ArgsType = {};
 type ArgPropType = keyof PlasmicHomepage__ArgsType;
-export const PlasmicHomepage__ArgProps = new Array<ArgPropType>("children");
+export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
   header?: p.Flex<typeof Header>;
   h1?: p.Flex<"h1">;
   solutions?: p.Flex<typeof Solutions>;
+  platformTechnology?: p.Flex<typeof PlatformTechnology>;
   features?: p.Flex<"section">;
   container4?: p.Flex<"div">;
   outerRow2?: p.Flex<"div">;
@@ -93,7 +101,6 @@ export type PlasmicHomepage__OverridesType = {
 };
 
 export interface DefaultHomepageProps {
-  children?: React.ReactNode;
   className?: string;
 }
 
@@ -422,6 +429,989 @@ function PlasmicHomepage__RenderFunc(props: {
               </div>
             </div>
 
+            <div className={classNames(projectcss.all, sty.freeBox__f1Fzh)}>
+              <section
+                className={classNames(projectcss.all, sty.columns__aQoVm)}
+              >
+                <div className={classNames(projectcss.all, sty.column___6K35)}>
+                  <h2
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.h2,
+                      projectcss.__wab_text,
+                      sty.h2__sJvom
+                    )}
+                  >
+                    {
+                      "Deploying applications to an enterprise-ready Azure environment has never been easier. "
+                    }
+                  </h2>
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__kwTjq
+                    )}
+                  >
+                    <React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ color: "#0091FF", fontWeight: 700 }}
+                      >
+                        {
+                          "Spend more time coding and testing than provisioning and deploying. "
+                        }
+                      </span>
+                      <React.Fragment>{"\n\n"}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {
+                          "Fathym gives you a best practice, cloud-native workflow for"
+                        }
+                      </span>
+                      <React.Fragment> </React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700, color: "#0091FF" }}
+                      >
+                        {"rapid "}
+                      </span>
+                      <React.Fragment>{""}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ color: "#0091FF", fontWeight: 700 }}
+                      >
+                        {"application"}
+                      </span>
+                      <React.Fragment>{""}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700, color: "#0091FF" }}
+                      >
+                        {" development, testing and release"}
+                      </span>
+                      <React.Fragment>{". "}</React.Fragment>
+                    </React.Fragment>
+                  </div>
+
+                  <div
+                    className={classNames(projectcss.all, sty.columns__q5A78)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.column__yZdQ2)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__hqucK)}
+                        displayHeight={"230px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"auto" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: microsoftTeamsImage22PngYtYl0CU7,
+                          fullWidth: 3542,
+                          fullHeight: 1563,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.columns___2N1I
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.column__gRfX
+                          )}
+                        >
+                          <h4
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h4,
+                              projectcss.__wab_text,
+                              sty.h4___4XIuf
+                            )}
+                          >
+                            {"Composable Application Development "}
+                          </h4>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__qyZxL
+                            )}
+                          >
+                            {"Future-proof"}
+                          </div>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__v1WDn
+                            )}
+                          >
+                            {
+                              "Develop composable applications with modular frontends and microservices for agile and scalable application delivery. "
+                            }
+                          </div>
+
+                          {true ? (
+                            <Button
+                              className={classNames(
+                                "__wab_instance",
+                                sty.button___7O2I
+                              )}
+                              color={"softBlue" as const}
+                              endIcon={
+                                <ArrowRightsvgIcon
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.svg__pd8Ku
+                                  )}
+                                  role={"img"}
+                                />
+                              }
+                              shape={"rounded" as const}
+                              showEndIcon={true}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__p4GQp
+                                )}
+                              >
+                                {"READ MORE"}
+                              </div>
+                            </Button>
+                          ) : null}
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      className={classNames(projectcss.all, sty.column__tkNq0)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__oKwUk)}
+                        displayHeight={"230px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"auto" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: microsoftTeamsImage21PngMu0X4VOUc,
+                          fullWidth: 3542,
+                          fullHeight: 1563,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.columns__asmxY
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.column__infM0
+                          )}
+                        >
+                          <h4
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h4,
+                              projectcss.__wab_text,
+                              sty.h4__eVNwy
+                            )}
+                          >
+                            {"Built-In CI/CD "}
+                          </h4>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__iImwD
+                            )}
+                          >
+                            {"Out-of-the-box"}
+                          </div>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__lyhfm
+                            )}
+                          >
+                            {
+                              "Automated build pipelines and source controls for no-code, hassle-free deployments. "
+                            }
+                          </div>
+
+                          {true ? (
+                            <Button
+                              className={classNames(
+                                "__wab_instance",
+                                sty.button__p99Xk
+                              )}
+                              color={"softBlue" as const}
+                              endIcon={
+                                <ArrowRightsvgIcon
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.svg__pFo1X
+                                  )}
+                                  role={"img"}
+                                />
+                              }
+                              shape={"rounded" as const}
+                              showEndIcon={true}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__xhZb
+                                )}
+                              >
+                                {"READ MORE"}
+                              </div>
+                            </Button>
+                          ) : null}
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      className={classNames(projectcss.all, sty.column___33Ybd)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__kha7O)}
+                        displayHeight={"230px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"auto" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: multiDatapngZw3PcLeDLaK0Ny,
+                          fullWidth: 850,
+                          fullHeight: 375,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.columns__yy5Td
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.column__iUncl
+                          )}
+                        >
+                          <h4
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h4,
+                              projectcss.__wab_text,
+                              sty.h4__i51Dd
+                            )}
+                          >
+                            {"Application Governance  "}
+                          </h4>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text___2NCko
+                            )}
+                          >
+                            {"Easily version and spin off new apps"}
+                          </div>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__ckLBy
+                            )}
+                          >
+                            {
+                              "Consolidated control panel for hosting and managing your application portfolio."
+                            }
+                          </div>
+
+                          {true ? (
+                            <Button
+                              className={classNames(
+                                "__wab_instance",
+                                sty.button__a3Ygh
+                              )}
+                              color={"softBlue" as const}
+                              endIcon={
+                                <ArrowRightsvgIcon
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.svg__aXzk9
+                                  )}
+                                  role={"img"}
+                                />
+                              }
+                              shape={"rounded" as const}
+                              showEndIcon={true}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__ggSpk
+                                )}
+                              >
+                                {"READ MORE"}
+                              </div>
+                            </Button>
+                          ) : null}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    className={classNames(projectcss.all, sty.columns__qtHJi)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.column__kh0Fc)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__v5Ebu)}
+                        displayHeight={"230px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"auto" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: cloudNativepngTFElapKifpNsAp,
+                          fullWidth: 850,
+                          fullHeight: 375,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.columns___8HsP
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.column___9V0P4
+                          )}
+                        >
+                          <h4
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h4,
+                              projectcss.__wab_text,
+                              sty.h4__gjLKe
+                            )}
+                          >
+                            {"Best Practice Cloud Infrastructure "}
+                          </h4>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__wbV4
+                            )}
+                          >
+                            {"Azure cloud"}
+                          </div>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__nj9Wv
+                            )}
+                          >
+                            {
+                              "Automated, best practice, cost effective Azure cloud provisioning."
+                            }
+                          </div>
+
+                          {true ? (
+                            <Button
+                              className={classNames(
+                                "__wab_instance",
+                                sty.button__tHhsi
+                              )}
+                              color={"softBlue" as const}
+                              endIcon={
+                                <ArrowRightsvgIcon
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.svg__bfrnH
+                                  )}
+                                  role={"img"}
+                                />
+                              }
+                              shape={"rounded" as const}
+                              showEndIcon={true}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__wnbr
+                                )}
+                              >
+                                {"READ MORE"}
+                              </div>
+                            </Button>
+                          ) : null}
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      className={classNames(projectcss.all, sty.column__sMaKk)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__tsgJ9)}
+                        displayHeight={"230px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"auto" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: microsoftTeamsImage17PngJm0FX6Qhm,
+                          fullWidth: 3542,
+                          fullHeight: 1563,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.columns__ooR2
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.column__jfeY
+                          )}
+                        >
+                          <h4
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h4,
+                              projectcss.__wab_text,
+                              sty.h4__g583V
+                            )}
+                          >
+                            {"Our Cloud or Yours "}
+                          </h4>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__ck4Qy
+                            )}
+                          >
+                            {"SaaS or Licensed"}
+                          </div>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__vk53
+                            )}
+                          >
+                            {
+                              "Get started hassle-free in our SaaS cloud. Scale to a cloud hosted in your own Azure tenant for maximum control. "
+                            }
+                          </div>
+
+                          {true ? (
+                            <Button
+                              className={classNames(
+                                "__wab_instance",
+                                sty.button__lpHw7
+                              )}
+                              color={"softBlue" as const}
+                              endIcon={
+                                <ArrowRightsvgIcon
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.svg__cpFps
+                                  )}
+                                  role={"img"}
+                                />
+                              }
+                              shape={"rounded" as const}
+                              showEndIcon={true}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__zb32R
+                                )}
+                              >
+                                {"READ MORE"}
+                              </div>
+                            </Button>
+                          ) : null}
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      className={classNames(projectcss.all, sty.column___4CUn)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__kCswP)}
+                        displayHeight={"230px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"auto" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: microsoftTeamsImage23PngYJJaM68,
+                          fullWidth: 3542,
+                          fullHeight: 1563,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.columns__me868
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.column__p6Qu
+                          )}
+                        >
+                          <h4
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h4,
+                              projectcss.__wab_text,
+                              sty.h4__ojz1A
+                            )}
+                          >
+                            {"Identity Management "}
+                          </h4>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text___0OeHy
+                            )}
+                          >
+                            {"Custom SSO"}
+                          </div>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__mwpHd
+                            )}
+                          >
+                            {
+                              "Authenticate users across your applications. Set up custom single sign-on (SSO)."
+                            }
+                          </div>
+
+                          {true ? (
+                            <Button
+                              className={classNames(
+                                "__wab_instance",
+                                sty.button__hsbSq
+                              )}
+                              color={"softBlue" as const}
+                              endIcon={
+                                <ArrowRightsvgIcon
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.svg___209N
+                                  )}
+                                  role={"img"}
+                                />
+                              }
+                              shape={"rounded" as const}
+                              showEndIcon={true}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__vYsGc
+                                )}
+                              >
+                                {"READ MORE"}
+                              </div>
+                            </Button>
+                          ) : null}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    className={classNames(projectcss.all, sty.columns__eVv0F)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.column__gpuOc)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__bdd3V)}
+                        displayHeight={"230px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"auto" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: microsoftTeamsImage18PngHswEwApnZ,
+                          fullWidth: 3542,
+                          fullHeight: 1563,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.columns__tFsfp
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.column___4Erhm
+                          )}
+                        >
+                          <h4
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h4,
+                              projectcss.__wab_text,
+                              sty.h4__vw944
+                            )}
+                          >
+                            {"Continuous Test and Release "}
+                          </h4>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__wfVse
+                            )}
+                          >
+                            {"Streamlined UI"}
+                          </div>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text___809Vg
+                            )}
+                          >
+                            {
+                              "Accelerate development cycles. Fathym enables non-developers to easily test updates and ship to production when ready. "
+                            }
+                          </div>
+
+                          {true ? (
+                            <Button
+                              className={classNames(
+                                "__wab_instance",
+                                sty.button___8EqG
+                              )}
+                              color={"softBlue" as const}
+                              endIcon={
+                                <ArrowRightsvgIcon
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.svg___7V0Ey
+                                  )}
+                                  role={"img"}
+                                />
+                              }
+                              shape={"rounded" as const}
+                              showEndIcon={true}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__kndkC
+                                )}
+                              >
+                                {"READ MORE"}
+                              </div>
+                            </Button>
+                          ) : null}
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      className={classNames(projectcss.all, sty.column___7Ehc4)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img___310Nu)}
+                        displayHeight={"230px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"auto" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: oursYourspngCaSf9VRyMoVwL2,
+                          fullWidth: 850,
+                          fullHeight: 375,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.columns__o673F
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.column__tAfNf
+                          )}
+                        >
+                          <h4
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h4,
+                              projectcss.__wab_text,
+                              sty.h4__lIpBj
+                            )}
+                          >
+                            {"Enterprise-Ready Security "}
+                          </h4>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__dN1G3
+                            )}
+                          >
+                            {"Secure your IP"}
+                          </div>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__pQs2M
+                            )}
+                          >
+                            {
+                              "Take advantage of Azure’s advanced security features. Secure your data ownership and intellectual property in your own Azure tenant."
+                            }
+                          </div>
+
+                          {true ? (
+                            <Button
+                              className={classNames(
+                                "__wab_instance",
+                                sty.button__vAhfv
+                              )}
+                              color={"softBlue" as const}
+                              endIcon={
+                                <ArrowRightsvgIcon
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.svg__u0Q5O
+                                  )}
+                                  role={"img"}
+                                />
+                              }
+                              shape={"rounded" as const}
+                              showEndIcon={true}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__uc1Zd
+                                )}
+                              >
+                                {"READ MORE"}
+                              </div>
+                            </Button>
+                          ) : null}
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      className={classNames(projectcss.all, sty.column__nsVpt)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__ycu)}
+                        displayHeight={"230px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"auto" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: microsoftTeamsImage19PngLgPuGiAwa,
+                          fullWidth: 3542,
+                          fullHeight: 1563,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.columns__njub
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.column__mrpdy
+                          )}
+                        >
+                          <h4
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h4,
+                              projectcss.__wab_text,
+                              sty.h4__moZ
+                            )}
+                          >
+                            {"Custom Workflows "}
+                          </h4>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__w0Fy7
+                            )}
+                          >
+                            {"Extensible"}
+                          </div>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__qZca
+                            )}
+                          >
+                            {
+                              "Fathym not only offers simplified workflows for releasing your applications to the cloud but gives you the ability to create your own custom workflows to accelerate your team. "
+                            }
+                          </div>
+
+                          {true ? (
+                            <Button
+                              className={classNames(
+                                "__wab_instance",
+                                sty.button___0IPgt
+                              )}
+                              color={"softBlue" as const}
+                              endIcon={
+                                <ArrowRightsvgIcon
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.svg__pAiAm
+                                  )}
+                                  role={"img"}
+                                />
+                              }
+                              shape={"rounded" as const}
+                              showEndIcon={true}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__iNyYk
+                                )}
+                              >
+                                {"READ MORE"}
+                              </div>
+                            </Button>
+                          ) : null}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
             {true ? (
               <Solutions
                 data-plasmic-name={"solutions"}
@@ -429,18 +1419,13 @@ function PlasmicHomepage__RenderFunc(props: {
                 className={classNames("__wab_instance", sty.solutions)}
               />
             ) : null}
-            {p.renderPlasmicSlot({
-              defaultContents: (
-                <PlatformTechnology
-                  className={classNames(
-                    "__wab_instance",
-                    sty.platformTechnology__dy8HF
-                  )}
-                />
-              ),
-
-              value: args.children
-            })}
+            {true ? (
+              <PlatformTechnology
+                data-plasmic-name={"platformTechnology"}
+                data-plasmic-override={overrides.platformTechnology}
+                className={classNames("__wab_instance", sty.platformTechnology)}
+              />
+            ) : null}
             {true ? (
               <section
                 data-plasmic-name={"features"}
@@ -1182,6 +2167,7 @@ const PlasmicDescendants = {
     "header",
     "h1",
     "solutions",
+    "platformTechnology",
     "features",
     "container4",
     "outerRow2",
@@ -1199,6 +2185,7 @@ const PlasmicDescendants = {
   header: ["header"],
   h1: ["h1"],
   solutions: ["solutions"],
+  platformTechnology: ["platformTechnology"],
   features: [
     "features",
     "container4",
@@ -1229,6 +2216,7 @@ type NodeDefaultElementType = {
   header: typeof Header;
   h1: "h1";
   solutions: typeof Solutions;
+  platformTechnology: typeof PlatformTechnology;
   features: "section";
   container4: "div";
   outerRow2: "div";
@@ -1308,6 +2296,7 @@ export const PlasmicHomepage = Object.assign(
     header: makeNodeComponent("header"),
     h1: makeNodeComponent("h1"),
     solutions: makeNodeComponent("solutions"),
+    platformTechnology: makeNodeComponent("platformTechnology"),
     features: makeNodeComponent("features"),
     container4: makeNodeComponent("container4"),
     outerRow2: makeNodeComponent("outerRow2"),
