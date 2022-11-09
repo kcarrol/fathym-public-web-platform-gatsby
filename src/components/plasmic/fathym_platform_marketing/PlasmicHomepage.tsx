@@ -61,7 +61,7 @@ import microsoftTeamsImage21PngMu0X4VOUc from "./images/microsoftTeamsImage21Png
 import multiDatapngZw3PcLeDLaK0Ny from "./images/multiDatapng.png"; // plasmic-import: ZW3PCLeDLaK0Ny/picture
 import cloudNativepngTFElapKifpNsAp from "./images/cloudNativepng.png"; // plasmic-import: tFElapKifpNsAp/picture
 import microsoftTeamsImage17PngJm0FX6Qhm from "./images/microsoftTeamsImage17Png.png"; // plasmic-import: JM0fX6qhm/picture
-import microsoftTeamsImage23PngYJJaM68 from "./images/microsoftTeamsImage23Png.png"; // plasmic-import: yJJaM_68-/picture
+import microsoftTeamsImage25PngIOxGptbRv from "./images/microsoftTeamsImage25Png.png"; // plasmic-import: IOxGptbRv/picture
 import microsoftTeamsImage18PngHswEwApnZ from "./images/microsoftTeamsImage18Png.png"; // plasmic-import: hswEWApnZ/picture
 import oursYourspngCaSf9VRyMoVwL2 from "./images/oursYourspng.png"; // plasmic-import: caSF9VRyMOVwL2/picture
 import microsoftTeamsImage19PngLgPuGiAwa from "./images/microsoftTeamsImage19Png.png"; // plasmic-import: LGPuGiAWA/picture
@@ -1018,7 +1018,7 @@ function PlasmicHomepage__RenderFunc(props: {
                         displayWidth={"auto" as const}
                         loading={"lazy" as const}
                         src={{
-                          src: microsoftTeamsImage23PngYJJaM68,
+                          src: microsoftTeamsImage25PngIOxGptbRv,
                           fullWidth: 3542,
                           fullHeight: 1563,
                           aspectRatio: undefined
@@ -2319,7 +2319,7 @@ export const PlasmicHomepage = Object.assign(
     pageMetadata: {
       title: "Fathym - Cloud-native app deployment, out-of-the-box",
       description:
-        "Fathym is a composable application platform for delivering  future-proof, enterprise-ready applications with Azure.",
+        "Fathym is a composable application platform for delivering future-proof, enterprise-ready applications with Azure.",
       ogImageSrc:
         "https://site-assets.plasmic.app/d63b5157444d0efbaceea4bd7defb7d9.png",
       canonical: ""
