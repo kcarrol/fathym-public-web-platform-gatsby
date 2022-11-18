@@ -204,7 +204,7 @@ function PlasmicFathymFooter__RenderFunc(props: {
                 sty.habistack
               )}
               component={Link}
-              href={"https://www.fathym.com/forecast" as const}
+              href={"https://www.fathym.com" as const}
               platform={"gatsby"}
             >
               <div
@@ -239,7 +239,7 @@ function PlasmicFathymFooter__RenderFunc(props: {
               data-plasmic-override={overrides.docs}
               className={classNames(projectcss.all, projectcss.a, sty.docs)}
               component={Link}
-              href={"https://www.fathym.com/forecast/docs" as const}
+              href={"https://www.fathym.com/docs" as const}
               platform={"gatsby"}
             >
               <div

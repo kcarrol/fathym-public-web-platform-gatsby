@@ -175,7 +175,7 @@ function PlasmicNewFathymFooter__RenderFunc(props: {
                 sty.link__gQAkq
               )}
               component={Link}
-              href={"https://www.fathym.com/forecast/" as const}
+              href={"https://www.fathym.com/" as const}
               platform={"gatsby"}
             >
               {"Habistack"}

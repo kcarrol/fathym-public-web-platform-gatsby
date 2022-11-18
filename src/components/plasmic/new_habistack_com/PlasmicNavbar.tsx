@@ -150,7 +150,7 @@ function PlasmicNavbar__RenderFunc(props: {
                 data-plasmic-override={overrides.docs}
                 className={classNames(projectcss.all, projectcss.a, sty.docs)}
                 component={Link}
-                href={"/forecast/docs/" as const}
+                href={"/docs/" as const}
                 platform={"gatsby"}
               >
                 <div
@@ -216,7 +216,7 @@ function PlasmicNavbar__RenderFunc(props: {
                 data-plasmic-override={overrides.logIn}
                 className={classNames(projectcss.all, projectcss.a, sty.logIn)}
                 component={Link}
-                href={"/dashboard/forecast/" as const}
+                href={"/dashboard/" as const}
                 platform={"gatsby"}
               >
                 <div
@@ -260,7 +260,7 @@ function PlasmicNavbar__RenderFunc(props: {
           <Button
             className={classNames("__wab_instance", sty.button__kggTb)}
             color={"blue" as const}
-            link={"/dashboard/forecast/" as const}
+            link={"/dashboard/" as const}
           >
             <div
               className={classNames(
@@ -332,7 +332,7 @@ function PlasmicNavbar__RenderFunc(props: {
               data-plasmic-override={overrides.docs3}
               className={classNames(projectcss.all, projectcss.a, sty.docs3)}
               component={Link}
-              href={"/forecast/docs" as const}
+              href={"/docs" as const}
               platform={"gatsby"}
             >
               <div
@@ -400,7 +400,7 @@ function PlasmicNavbar__RenderFunc(props: {
               data-plasmic-override={overrides.login}
               className={classNames(projectcss.all, projectcss.a, sty.login)}
               component={Link}
-              href={"/dashboard/forecast/" as const}
+              href={"/dashboard/" as const}
               platform={"gatsby"}
             >
               <div

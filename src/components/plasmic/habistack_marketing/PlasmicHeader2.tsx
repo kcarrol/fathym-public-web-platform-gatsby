@@ -256,7 +256,7 @@ function PlasmicHeader2__RenderFunc(props: {
             hasGap={true}
             className={classNames(projectcss.all, projectcss.a, sty.link__tsVl)}
             component={Link}
-            href={"https://www.fathym.com/forecast/docs" as const}
+            href={"https://www.fathym.com/docs" as const}
             platform={"gatsby"}
           >
             {false ? (
@@ -303,7 +303,7 @@ function PlasmicHeader2__RenderFunc(props: {
             hasGap={true}
             className={classNames(projectcss.all, projectcss.a, sty.link__t90C)}
             component={Link}
-            href={"https://www.fathym.com/dashboard/forecast" as const}
+            href={"https://www.fathym.com/dashboard" as const}
             platform={"gatsby"}
           >
             {false ? (
@@ -336,7 +336,7 @@ function PlasmicHeader2__RenderFunc(props: {
             data-plasmic-override={overrides.button}
             className={classNames("__wab_instance", sty.button)}
             color={"blue" as const}
-            link={"/dashboard/forecast/" as const}
+            link={"/dashboard" as const}
           >
             <div
               className={classNames(
