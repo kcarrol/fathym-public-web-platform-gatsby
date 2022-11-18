@@ -376,32 +376,53 @@ function PlasmicHomepage__RenderFunc(props: {
                             </React.Fragment>
                           </div>
 
-                          <Button
-                            className={classNames(
-                              "__wab_instance",
-                              sty.button__pV7O8
-                            )}
-                            endIcon={
-                              <ArrowRightsvgIcon
+                          {true ? (
+                            <Button
+                              className={classNames(
+                                "__wab_instance",
+                                sty.button__pV7O8
+                              )}
+                              endIcon={
+                                <ArrowRightsvgIcon
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.svg___5KXBj
+                                  )}
+                                  role={"img"}
+                                />
+                              }
+                              link={"https://www.fathym.com/dashboard" as const}
+                            >
+                              <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.svg___5KXBj
+                                  projectcss.__wab_text,
+                                  sty.text__hi4Rm
                                 )}
-                                role={"img"}
-                              />
-                            }
-                            link={"https://www.fathym.com/dashboard" as const}
-                          >
-                            <div
+                              >
+                                {"Get Started for Free"}
+                              </div>
+                            </Button>
+                          ) : null}
+                          {true ? (
+                            <Button
                               className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__hi4Rm
+                                "__wab_instance",
+                                sty.button__kXvZg
                               )}
+                              link={"https://www.fathym.com/dashboard" as const}
                             >
-                              {"Get started for Free"}
-                            </div>
-                          </Button>
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__jTnXu
+                                )}
+                              >
+                                {"Get Started for Free"}
+                              </div>
+                            </Button>
+                          ) : null}
                         </div>
 
                         <div

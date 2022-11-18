@@ -188,6 +188,7 @@
   line-height: 26px;
   font-family: "Montserrat", sans-serif;
   height: auto;
+  display: none;
 }
 .svg__u1DwW {
   width: 24px;
@@ -260,8 +261,8 @@
   transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
+  display: flex;
   cursor: pointer;
-  display: none;
   -webkit-transition-property: all;
   -webkit-transition-timing-function: ease-out;
   -webkit-transition-duration: 0.5s;
@@ -308,65 +309,12 @@
   color: #05050599;
   flex-shrink: 0;
 }
-.link__uml1B {
-  flex-direction: row;
-  position: relative;
-  transition-property: all;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-out;
-  display: flex;
-  cursor: pointer;
-  -webkit-transition-property: all;
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 0.5s;
-  border-radius: 6px;
-  padding: 10px 16px;
-  border: 1px solid transparent;
-}
-.link__uml1B > :global(.__wab_flex-container) {
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-left: calc(0px - 8px);
-  width: calc(100% + 8px);
-}
-.link__uml1B > :global(.__wab_flex-container) > *,
-.link__uml1B > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.link__uml1B > :global(.__wab_flex-container) > picture > img,
-.link__uml1B
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-left: 8px;
-}
-.svg___5I1Pp {
-  width: 24px;
-  height: 24px;
-  position: relative;
-  object-fit: cover;
-  color: #05050599;
-  flex-shrink: 0;
-}
-.text__rjWf0 {
-  font-weight: 400;
-  color: #05050599;
-  font-size: 18px;
-  line-height: 26px;
-  font-family: "Roboto", sans-serif;
-}
-.svg__fZjhl {
-  width: 24px;
-  height: 24px;
-  position: relative;
-  object-fit: cover;
-  color: #05050599;
-  flex-shrink: 0;
-}
-.link__jYit6 {
+.link__qd4Te {
   position: relative;
   color: var(--token-dKhEFdtn8ok1mZ);
   font-size: 18px;
+  display: block;
+  padding: 0px;
 }
 .link__n8JYz {
   flex-direction: row;
@@ -423,9 +371,10 @@
   color: #05050599;
   flex-shrink: 0;
 }
-.button:global(.__wab_instance) {
+.button__fjb7H:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
+  display: none;
 }
 .svg___1VuVs {
   position: relative;
@@ -438,6 +387,22 @@
   font-size: 18px;
 }
 .svg__gl8I5 {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.button___4LJf8:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.svg__m5Ax {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__kmM4E {
   position: relative;
   object-fit: cover;
   width: 1em;

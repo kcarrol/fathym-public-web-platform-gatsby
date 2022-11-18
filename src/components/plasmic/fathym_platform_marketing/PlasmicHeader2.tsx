@@ -60,7 +60,6 @@ export const PlasmicHeader2__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHeader2__OverridesType = {
   root?: p.Flex<"div">;
-  button?: p.Flex<typeof Button>;
 };
 
 export interface DefaultHeader2Props {
@@ -157,17 +156,17 @@ function PlasmicHeader2__RenderFunc(props: {
                   role={"img"}
                 />
               ) : null}
-
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__mRzN9
-                )}
-              >
-                {"Technology"}
-              </div>
-
+              {true ? (
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__mRzN9
+                  )}
+                >
+                  {"Technology"}
+                </div>
+              ) : null}
               {true ? (
                 <IconIcon
                   className={classNames(projectcss.all, sty.svg__u1DwW)}
@@ -224,7 +223,7 @@ function PlasmicHeader2__RenderFunc(props: {
                 sty.link__hoqxZ
               )}
               component={Link}
-              href={`/pricing`}
+              href={"https://www.fathym.com/docs/" as const}
               platform={"gatsby"}
             >
               {false ? (
@@ -241,7 +240,7 @@ function PlasmicHeader2__RenderFunc(props: {
                   sty.text__bAgVu
                 )}
               >
-                {"Pricing "}
+                {"Docs"}
               </div>
 
               {false ? (
@@ -252,111 +251,82 @@ function PlasmicHeader2__RenderFunc(props: {
               ) : null}
             </p.Stack>
           ) : null}
-
-          <p.Stack
-            as={p.PlasmicLink}
-            hasGap={true}
-            className={classNames(
-              projectcss.all,
-              projectcss.a,
-              sty.link__uml1B
-            )}
-            component={Link}
-            href={"https://www.fathym.com/docs/" as const}
-            platform={"gatsby"}
-          >
-            {false ? (
-              <IconIcon
-                className={classNames(projectcss.all, sty.svg___5I1Pp)}
-                role={"img"}
-              />
-            ) : null}
-
-            <div
+          {true ? (
+            <p.PlasmicLink
               className={classNames(
                 projectcss.all,
+                projectcss.a,
                 projectcss.__wab_text,
-                sty.text__rjWf0
+                sty.link__qd4Te
               )}
+              component={Link}
+              href={"https://www.fathym.com/blog/" as const}
+              platform={"gatsby"}
             >
-              {"Docs"}
-            </div>
-
-            {false ? (
-              <IconIcon
-                className={classNames(projectcss.all, sty.svg__fZjhl)}
-                role={"img"}
-              />
-            ) : null}
-          </p.Stack>
-
-          <p.PlasmicLink
-            className={classNames(
-              projectcss.all,
-              projectcss.a,
-              projectcss.__wab_text,
-              sty.link__jYit6
-            )}
-            component={Link}
-            href={"https://www.fathym.com/blog/" as const}
-            platform={"gatsby"}
-          >
-            {"Blog"}
-          </p.PlasmicLink>
-
-          <p.Stack
-            as={p.PlasmicLink}
-            hasGap={true}
-            className={classNames(
-              projectcss.all,
-              projectcss.a,
-              sty.link__n8JYz
-            )}
-            component={Link}
-            href={"https://www.fathym.com/dashboard" as const}
-            platform={"gatsby"}
-          >
-            {false ? (
-              <IconIcon
-                className={classNames(projectcss.all, sty.svg__swFci)}
-                role={"img"}
-              />
-            ) : null}
-
-            <div
+              {"Blog"}
+            </p.PlasmicLink>
+          ) : null}
+          {true ? (
+            <p.Stack
+              as={p.PlasmicLink}
+              hasGap={true}
               className={classNames(
                 projectcss.all,
-                projectcss.__wab_text,
-                sty.text__p48X
+                projectcss.a,
+                sty.link__n8JYz
               )}
+              component={Link}
+              href={"https://www.fathym.com/dashboard" as const}
+              platform={"gatsby"}
             >
-              {"Login"}
-            </div>
+              {false ? (
+                <IconIcon
+                  className={classNames(projectcss.all, sty.svg__swFci)}
+                  role={"img"}
+                />
+              ) : null}
 
-            {false ? (
-              <IconIcon
-                className={classNames(projectcss.all, sty.svg__l6USo)}
-                role={"img"}
-              />
-            ) : null}
-          </p.Stack>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__p48X
+                )}
+              >
+                {"Login"}
+              </div>
+
+              {false ? (
+                <IconIcon
+                  className={classNames(projectcss.all, sty.svg__l6USo)}
+                  role={"img"}
+                />
+              ) : null}
+            </p.Stack>
+          ) : null}
+          {true ? (
+            <Button
+              className={classNames("__wab_instance", sty.button__fjb7H)}
+              color={"blue" as const}
+              link={"https://www.fathym.com/dashboard" as const}
+            >
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__zvi2D
+                )}
+              >
+                {"Get started for Free"}
+              </div>
+            </Button>
+          ) : null}
 
           <Button
-            data-plasmic-name={"button"}
-            data-plasmic-override={overrides.button}
-            className={classNames("__wab_instance", sty.button)}
-            color={"blue" as const}
+            className={classNames("__wab_instance", sty.button___4LJf8)}
             link={"https://www.fathym.com/dashboard" as const}
           >
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__zvi2D
-              )}
-            >
-              {"Get started for Free"}
-            </div>
+            {"Get Started for Free"}
           </Button>
         </p.Stack>
       </p.Stack>
@@ -365,15 +335,13 @@ function PlasmicHeader2__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "button"],
-  button: ["button"]
+  root: ["root"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
   typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  button: typeof Button;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -437,7 +405,6 @@ export const PlasmicHeader2 = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    button: makeNodeComponent("button"),
 
     // Metadata about props expected for PlasmicHeader2
     internalVariantProps: PlasmicHeader2__VariantProps,

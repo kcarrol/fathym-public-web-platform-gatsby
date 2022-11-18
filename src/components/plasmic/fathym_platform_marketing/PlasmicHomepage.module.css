@@ -258,6 +258,7 @@
   max-width: 100%;
   position: relative;
   align-self: flex-start;
+  display: flex;
 }
 .svg__nszCb {
   position: relative;
@@ -270,6 +271,26 @@
   font-size: 18px;
 }
 .svg___5KXBj {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.button__kXvZg:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  display: none;
+}
+.svg__ciDno {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.text__jTnXu {
+  text-align: left;
+}
+.svg__fGuPn {
   position: relative;
   object-fit: cover;
   width: 1em;
