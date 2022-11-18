@@ -273,9 +273,15 @@ function PlasmicHomepage__RenderFunc(props: {
                           </React.Fragment>
                         ) : (
                           <React.Fragment>
-                            <React.Fragment>
-                              {"Cloud-native app deployment, "}
-                            </React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ color: "#000000" }}
+                            >
+                              {"Cloud-native app deployment,"}
+                            </span>
+                            <React.Fragment> </React.Fragment>
                             <span
                               className={
                                 "plasmic_default__all plasmic_default__span"
@@ -384,7 +390,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                 role={"img"}
                               />
                             }
-                            link={"/dashboard/forecast/" as const}
+                            link={"https://www.fathym.com/dashboard" as const}
                           >
                             <div
                               className={classNames(
