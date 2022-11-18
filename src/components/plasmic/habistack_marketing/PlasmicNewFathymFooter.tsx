@@ -318,7 +318,7 @@ function PlasmicNewFathymFooter__RenderFunc(props: {
                 sty.link__gBvbd
               )}
               component={Link}
-              href={"https://www.fathym.com/terms-of-services/" as const}
+              href={"https://www.fathym.com/privacy-policy/" as const}
               platform={"gatsby"}
             >
               <React.Fragment>

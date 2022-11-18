@@ -345,7 +345,7 @@ function PlasmicHeader2__RenderFunc(props: {
                 sty.text__cbf9F
               )}
             >
-              {"Get started for Free"}
+              {"Get Started for Free"}
             </div>
           </Button>
         </p.Stack>

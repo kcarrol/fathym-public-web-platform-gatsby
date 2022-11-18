@@ -33,6 +33,7 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import Header2 from "../../Header2"; // plasmic-import: QRI3WiNK3jkO2A/component
 import Header from "../../Header"; // plasmic-import: IZ-2R-4QzkjxPd/component
 import Button from "../../Button"; // plasmic-import: 7une6Ae6nQQ_5/component
 import Solutions from "../../Solutions"; // plasmic-import: 3H8XUEEcqJGPi-/component
@@ -81,6 +82,7 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
+  header2?: p.Flex<typeof Header2>;
   header?: p.Flex<typeof Header>;
   h1?: p.Flex<"h1">;
   solutions?: p.Flex<typeof Solutions>;
@@ -200,11 +202,19 @@ function PlasmicHomepage__RenderFunc(props: {
               sty.root
             )}
           >
-            <Header
-              data-plasmic-name={"header"}
-              data-plasmic-override={overrides.header}
-              className={classNames("__wab_instance", sty.header)}
+            <Header2
+              data-plasmic-name={"header2"}
+              data-plasmic-override={overrides.header2}
+              className={classNames("__wab_instance", sty.header2)}
             />
+
+            {true ? (
+              <Header
+                data-plasmic-name={"header"}
+                data-plasmic-override={overrides.header}
+                className={classNames("__wab_instance", sty.header)}
+              />
+            ) : null}
 
             <div className={classNames(projectcss.all, sty.freeBox__m9Qu)}>
               <div className={classNames(projectcss.all, sty.freeBox__fTPf)}>
@@ -2191,6 +2201,7 @@ function PlasmicHomepage__RenderFunc(props: {
 const PlasmicDescendants = {
   root: [
     "root",
+    "header2",
     "header",
     "h1",
     "solutions",
@@ -2209,6 +2220,7 @@ const PlasmicDescendants = {
     "heroSection",
     "newFathymFooter"
   ],
+  header2: ["header2"],
   header: ["header"],
   h1: ["h1"],
   solutions: ["solutions"],
@@ -2240,6 +2252,7 @@ type DescendantsType<T extends NodeNameType> =
   typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   root: "div";
+  header2: typeof Header2;
   header: typeof Header;
   h1: "h1";
   solutions: typeof Solutions;
@@ -2320,6 +2333,7 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    header2: makeNodeComponent("header2"),
     header: makeNodeComponent("header"),
     h1: makeNodeComponent("h1"),
     solutions: makeNodeComponent("solutions"),
