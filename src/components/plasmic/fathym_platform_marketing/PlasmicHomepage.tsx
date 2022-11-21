@@ -34,8 +34,8 @@ import {
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import Header2 from "../../Header2"; // plasmic-import: QRI3WiNK3jkO2A/component
-import Header from "../../Header"; // plasmic-import: IZ-2R-4QzkjxPd/component
 import Button from "../../Button"; // plasmic-import: 7une6Ae6nQQ_5/component
+import Header from "../../Header"; // plasmic-import: IZ-2R-4QzkjxPd/component
 import Solutions from "../../Solutions"; // plasmic-import: 3H8XUEEcqJGPi-/component
 import PlatformTechnology from "../../PlatformTechnology"; // plasmic-import: CIREW4x60I/component
 import Testimonial from "../../Testimonial"; // plasmic-import: 6_8qVPX-29PB5/component
@@ -55,7 +55,9 @@ import * as projectcss from "./plasmic_fathym_platform_marketing.module.css"; //
 import * as sty from "./PlasmicHomepage.module.css"; // plasmic-import: O7oLU1q9msvV2/css
 
 import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: UoPjMarBjLAJl_/icon
+import Icon38Icon from "./icons/PlasmicIcon__Icon38"; // plasmic-import: eFdS-6kCw2B/icon
 import ArrowRightsvgIcon from "./icons/PlasmicIcon__ArrowRightsvg"; // plasmic-import: dgkW2n0oQvm_D7/icon
+import fathymaqua01Svg2PxOyhsqFy from "./images/fathymaqua01Svg2.svg"; // plasmic-import: PXOyhsqFy/picture
 import microsoftTeamsImage24PngXuQ7XFto from "./images/microsoftTeamsImage24Png.png"; // plasmic-import: XuQ-7xFTO/picture
 import microsoftTeamsImage22PngYtYl0CU7 from "./images/microsoftTeamsImage22Png.png"; // plasmic-import: Yt_Yl0cU7/picture
 import microsoftTeamsImage21PngMu0X4VOUc from "./images/microsoftTeamsImage21Png.png"; // plasmic-import: MU0x4vOUc/picture
@@ -202,11 +204,281 @@ function PlasmicHomepage__RenderFunc(props: {
               sty.root
             )}
           >
-            <Header2
-              data-plasmic-name={"header2"}
-              data-plasmic-override={overrides.header2}
-              className={classNames("__wab_instance", sty.header2)}
-            />
+            {true ? (
+              <Header2
+                data-plasmic-name={"header2"}
+                data-plasmic-override={overrides.header2}
+                className={classNames("__wab_instance", sty.header2)}
+              />
+            ) : null}
+
+            <p.Stack
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.freeBox__sktF)}
+            >
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.freeBox__tnEBr)}
+              >
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__vYq0I)}
+                  displayHeight={"60px" as const}
+                  displayMaxHeight={"none" as const}
+                  displayMaxWidth={"none" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={"169px" as const}
+                  src={{
+                    src: fathymaqua01Svg2PxOyhsqFy,
+                    fullWidth: 300,
+                    fullHeight: 97,
+                    aspectRatio: 3.083538
+                  }}
+                />
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__h08T)}
+                >
+                  {true ? (
+                    <Button
+                      className={classNames(
+                        "__wab_instance",
+                        sty.button___5HaKd
+                      )}
+                      color={"clear" as const}
+                      endIcon={
+                        <Icon38Icon
+                          className={classNames(projectcss.all, sty.svg__eegRl)}
+                          role={"img"}
+                        />
+                      }
+                      startIcon={
+                        <ChecksvgIcon
+                          className={classNames(projectcss.all, sty.svg__r753J)}
+                          role={"img"}
+                        />
+                      }
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__evfa7
+                        )}
+                      >
+                        {"Services"}
+                      </div>
+                    </Button>
+                  ) : null}
+                  {true ? (
+                    <Button
+                      className={classNames(
+                        "__wab_instance",
+                        sty.button__wYhA0
+                      )}
+                      color={"clear" as const}
+                      endIcon={
+                        <Icon38Icon
+                          className={classNames(projectcss.all, sty.svg__gAw2H)}
+                          role={"img"}
+                        />
+                      }
+                      startIcon={
+                        <ChecksvgIcon
+                          className={classNames(projectcss.all, sty.svg__sAvBy)}
+                          role={"img"}
+                        />
+                      }
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__fOl5
+                        )}
+                      >
+                        {"Features"}
+                      </div>
+                    </Button>
+                  ) : null}
+                  {true ? (
+                    <Button
+                      className={classNames(
+                        "__wab_instance",
+                        sty.button___1HhUp
+                      )}
+                      color={"clear" as const}
+                      endIcon={
+                        <Icon38Icon
+                          className={classNames(projectcss.all, sty.svg__xIyIz)}
+                          role={"img"}
+                        />
+                      }
+                      link={"https://www.fathym.com/docs" as const}
+                      startIcon={
+                        <ChecksvgIcon
+                          className={classNames(projectcss.all, sty.svg__pnpbY)}
+                          role={"img"}
+                        />
+                      }
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__bnPy
+                        )}
+                      >
+                        {"Docs"}
+                      </div>
+                    </Button>
+                  ) : null}
+
+                  <Button
+                    className={classNames("__wab_instance", sty.button__x09MK)}
+                    color={"clear" as const}
+                    endIcon={
+                      <Icon38Icon
+                        className={classNames(projectcss.all, sty.svg__ta2Rl)}
+                        role={"img"}
+                      />
+                    }
+                    link={"https://www.fathym.com/blog/" as const}
+                    startIcon={
+                      <ChecksvgIcon
+                        className={classNames(projectcss.all, sty.svg__la7D8)}
+                        role={"img"}
+                      />
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__f8XV3
+                      )}
+                    >
+                      {"Blog"}
+                    </div>
+                  </Button>
+
+                  <Button
+                    className={classNames("__wab_instance", sty.button__sj3OK)}
+                    color={"clear" as const}
+                    endIcon={
+                      <Icon38Icon
+                        className={classNames(projectcss.all, sty.svg__rxqW)}
+                        role={"img"}
+                      />
+                    }
+                    link={"https://www.fathym.com/dashboard/" as const}
+                    startIcon={
+                      <ChecksvgIcon
+                        className={classNames(projectcss.all, sty.svg__jCi9H)}
+                        role={"img"}
+                      />
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__rnbD1
+                      )}
+                    >
+                      {"Log in"}
+                    </div>
+                  </Button>
+
+                  <Button
+                    className={classNames("__wab_instance", sty.button__pbik7)}
+                    endIcon={
+                      <Icon38Icon
+                        className={classNames(projectcss.all, sty.svg__xtIkU)}
+                        role={"img"}
+                      />
+                    }
+                    link={"https://www.fathym.com/dashboard/" as const}
+                    startIcon={
+                      <ChecksvgIcon
+                        className={classNames(projectcss.all, sty.svg__oKjuB)}
+                        role={"img"}
+                      />
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__qtoN2
+                      )}
+                    >
+                      {"Get Started for Free"}
+                    </div>
+                  </Button>
+                </p.Stack>
+
+                {false ? (
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox___9P6DD)}
+                  >
+                    <button
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.button,
+                        projectcss.__wab_text,
+                        sty.button__mjPs7
+                      )}
+                    >
+                      {"Sign up"}
+                    </button>
+
+                    {true ? (
+                      <Button
+                        className={classNames(
+                          "__wab_instance",
+                          sty.button___53L4N
+                        )}
+                        color={"clear" as const}
+                        endIcon={
+                          <Icon38Icon
+                            className={classNames(
+                              projectcss.all,
+                              sty.svg__j2DmZ
+                            )}
+                            role={"img"}
+                          />
+                        }
+                        startIcon={
+                          <ChecksvgIcon
+                            className={classNames(
+                              projectcss.all,
+                              sty.svg___3Y95N
+                            )}
+                            role={"img"}
+                          />
+                        }
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__ybPkk
+                          )}
+                        >
+                          {"Log in"}
+                        </div>
+                      </Button>
+                    ) : null}
+                  </div>
+                ) : null}
+              </p.Stack>
+            </p.Stack>
 
             {true ? (
               <Header

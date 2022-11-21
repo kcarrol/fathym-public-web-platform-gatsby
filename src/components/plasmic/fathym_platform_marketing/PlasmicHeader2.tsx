@@ -326,7 +326,18 @@ function PlasmicHeader2__RenderFunc(props: {
             className={classNames("__wab_instance", sty.button___4LJf8)}
             link={"https://www.fathym.com/dashboard" as const}
           >
-            {"Get Started for Free"}
+            {([2, 3, 4] ?? []).map((currentItem, currentIndex) => (
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__vs2H
+                )}
+                key={currentIndex}
+              >
+                {""}
+              </div>
+            ))}
           </Button>
         </p.Stack>
       </p.Stack>
